@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FFT.cpp" />
+    <ClCompile Include="MFCC.cpp" />
     <ClCompile Include="Multicore-OpenMp-MFCC.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FFT.h" />
+    <ClInclude Include="MFCC.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
